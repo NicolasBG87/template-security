@@ -1,0 +1,15 @@
+// Colors
+$blue: rgb(0, 136, 203);
+$black: rgb(54, 54, 54);
+$grey: rgb(124, 123, 124);
+$bg: rgb(241, 245, 247);
+$purple: rgb(141, 124, 207);
+$orange: rgb(235, 187, 85);
+$green: rgb(73, 112, 4);
+
+@mixin gradient {
+  background: #0086c9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #041b4a, #0086c9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #041b4a, #0086c9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
